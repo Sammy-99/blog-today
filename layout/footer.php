@@ -1,4 +1,3 @@
-
 <!-- <footer class="page-footer font-small fixed-bottom " >
 
 <div class="footer-copyright text-center py-3 " style="background: #907163">
@@ -18,6 +17,9 @@
 <!-- Latest compiled JavaScript -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="tinymce/js/tinymce/tinymce.min.js"></script>
+<script src="tinymce/js/tinymce/init-tinymce.js"></script>
+<script src="layout/js/prism.js" data-manual></script>
 
 </body>
 

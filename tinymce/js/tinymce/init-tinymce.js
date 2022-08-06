@@ -45,18 +45,35 @@ tinymce.init({
     selector : "textarea#text_editor",
     branding: false,
     menubar: true,
-    plugins: "lists advlist anchor link autosave preview fullscreen visualblocks table image imagetools autolink codesample media quickbars code charmap directionality emoticons fullpage help",
+    plugins: "lists advlist anchor link autosave preview fullscreen visualblocks table image autolink codesample media quickbars code charmap directionality emoticons help pagebreak searchreplace template wordcount ",
     toolbar: "undo redo | styleselect | " +
             "bold italic underline | sizeselect | fontselect | fontsizeselect | forecolor backcolor | restoredraft | " +
             "alignleft aligncenter alignright alignjustify | emoticons | " +
             "bullist numlist | preview | fullscreen | outdent indent | codesample | ltr rtl | " +
-            "table | anchor | link unlink | image | code | media | hr | visualblocks | charmap | fullpage | help",
+            "table | anchor | link unlink | image | code | media | hr | visualblocks | charmap | fullpage | searchreplace | paste pastetext | template | pagebreak | wordcount | help",
     allow_html_in_named_anchor: true,
     autosave_ask_before_unload: true,
     codesample_global_prismjs: true,   
     imagetools_toolbar: 'rotateleft rotateright | flipv fliph | editimage imageoptions', 
+    link_assume_external_targets: true,
+    pagebreak_split_block: true,
+    pagebreak_separator: '<!-- my page break -->',
+    paste_block_drop: true,
     images_upload_url: "controllers/Dashboard.php",
-    images_upload_handler: image_upload_handler_callback
+    images_upload_handler: image_upload_handler_callback,
+    codesample_global_prismjs: true,
+    codesample_languages: [
+        { text: 'HTML/XML', value: 'markup' },
+        { text: 'JavaScript', value: 'javascript' },
+        { text: 'CSS', value: 'css' },
+        { text: 'PHP', value: 'php' },
+        { text: 'Ruby', value: 'ruby' },
+        { text: 'Python', value: 'python' },
+        { text: 'Java', value: 'java' },
+        { text: 'C', value: 'c' },
+        { text: 'C#', value: 'csharp' },
+        { text: 'C++', value: 'cpp' }
+      ]
 
 });
 

@@ -71,10 +71,6 @@ spl_autoload_register(function ($className) {
 
 $dashboard = new Dashboard();
 
-// print_r($_POST);
-// print_r($_FILES);
-// die(" ggg ");
-
 if(isset($_POST['text_editor']) && !empty($_POST['text_editor'])){
     $dashboard->getEditorData($_POST['text_editor']);
 }

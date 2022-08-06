@@ -16,7 +16,7 @@ include_once("./layout/head.php");
             <span class="text-dark text-start ps-4"> Blog's Today</span>
         </div>
 
-        <div class="row pb-3" id="second-row">
+        <div class="row" id="second-row">
             <div class="col-lg-2 h-40rem border pb-4" id="left-side-box">
                 <fieldset class="border p-2 m-2">
                     <legend class="float-none w-auto p-2"> Content </legend>
