@@ -54,7 +54,6 @@ class Dashboard{
                     echo "http_host -- ".  $_SERVER["HTTP_HOST"] . "<br>";
                     echo "base + filetowrite -- ".  $baseurl . $filetowrite . "<br>";
                     echo "baseurl -- ".  $baseurl ;
-                    die(" testing");
                     echo json_encode(array('location' => $baseurl . $filetowrite)); 
                 }else{ 
                     header("HTTP/1.1 400 Upload failed."); 
