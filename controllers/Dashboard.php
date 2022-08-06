@@ -17,6 +17,8 @@ class Dashboard{
     public function fileHandler()
     {
         $imageFolder = "../uploadimage/";
+        echo $_SERVER['HTTP_ORIGIN'];
+        die(" origin");
         if (isset($_SERVER['HTTP_ORIGIN'])) { 
             if (in_array($_SERVER['HTTP_ORIGIN'], Self::$acceptedOrigins)) { 
                 header('Access-Control-Allow-Origin: ' . $_SERVER['HTTP_ORIGIN']); 
