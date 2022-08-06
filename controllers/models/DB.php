@@ -28,14 +28,14 @@ class DB
      * @var string
      */
     // private const PASSWORD = "hestabit"; 
-    private const PASSWORD = "0wi&lbRuPuv"; 
+    private const PASSWORD = "bPmtHasjyTJ2SgZJ"; 
 
     /**
      * This property contain the database name for database connection.
      * @var string
      */
     // private const DB = "project_b";
-    private const DB = "Samir";
+    private const DB = "samir";
 
     private static $_instance = null;
 
