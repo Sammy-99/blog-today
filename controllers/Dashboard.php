@@ -4,7 +4,7 @@ ini_set( "display_errors", 1 );
 
 class Dashboard{
 
-    protected static $acceptedOrigins = array("http://localhost", "http://example.com");
+    protected static $acceptedOrigins = array("http://localhost", "http://hestalabs.com");
 
     public function getEditorData($editorContent)
     {
@@ -17,7 +17,7 @@ class Dashboard{
     public function fileHandler()
     {
         $imageFolder = "../uploadimage/";
-        echo $_SERVER['HTTP_ORIGIN'];
+        echo $_SERVER['REQUEST_METHOD'];
         die(" origin");
         if (isset($_SERVER['HTTP_ORIGIN'])) { 
             if (in_array($_SERVER['HTTP_ORIGIN'], Self::$acceptedOrigins)) { 
