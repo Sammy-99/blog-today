@@ -20,22 +20,22 @@ class DB
      * This property contains the username for database connection.
      * @var string
      */
-    private const USERNAME = "root";
-    // private const USERNAME = "tse"; 
+    // private const USERNAME = "root";
+    private const USERNAME = "tse"; 
 
     /**
      * This property contain the password for database connection.
      * @var string
      */
-    private const PASSWORD = "hestabit"; 
-    // private const PASSWORD = "bPmtHasjyTJ2SgZJ"; 
+    // private const PASSWORD = "hestabit"; 
+    private const PASSWORD = "0wi&lbRuPuv"; 
 
     /**
      * This property contain the database name for database connection.
      * @var string
      */
-    private const DB = "project_b";
-    // private const DB = "samir";
+    // private const DB = "project_b";
+    private const DB = "Samir";
 
     private static $_instance = null;
 
