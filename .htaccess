@@ -1,0 +1,9 @@
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.home*)$ $1.php
+
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^\projectTwo\.]+)$ $1.php [NC,L]
+
+

@@ -1,0 +1,19 @@
+************  PROJECT B  *********
+
+	Module 1 -->
+		1) Login page --- 
+			a) This page will be used for admin (single user).
+			b) Admin must enter their Email and password for login.
+			c) Admin will be redirected to the dashboard after successfully logged in.
+			d) Password will be in encrypted form in DB. 
+	Module 2 -->
+		2) Dashboard page ---
+			a) On the dashboard page there will be an editor only.
+			b) With this editor admin can change the frontend page content.
+			c) This data will be saved in database first and previous data will be deleted (soft deleted).
+			d) Only one data will be visible at a time.
+	Module 3 -->	
+		3) Home page ---
+			a) This page will be for the users who can visit the website.
+			b) There will be 5 sections on Home page : Header, Left sidebar, Content, Right side bar, Footer.
+			c) Dynamic data will be seen in the content area, rest section may have the static values.

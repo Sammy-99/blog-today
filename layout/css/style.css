@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Jacques+Francois+Shadow);
+@import url(http://fonts.googleapis.com/css?family=Jacques+Francois);
+
+
+.login_form{
+    margin-top: 270px !important;
+    /* margin-left: 350px !important; */
+    border-right: 1px solid black !important;
+}
+
+.login_form input{
+    border-bottom: 1px solid black !important;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+}
+
+#login-logo{
+    margin-top: 340px;
+    font-size: 5rem;
+}
+
+.rightSideAlert{
+    position: absolute !important;
+    right: 10px;
+    z-index: 9999999;
+    top: 56px;
+}
+
+#home-header{
+    background-image: url("../assets/logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#home-header span{
+    /* font-family: 'Jacques Francois', cursive; */
+    /* font-family: "Nunito", sans-serif !important; */
+        text-shadow: 0 0 2px rgb(229, 226, 226), 0 0 2px rgb(209, 121, 121), 0 0 2px rgb(209, 121, 121), 0 0 2px rgb(209, 121, 121); 
+        /* color: rgb(248, 235, 235) !important; */
+        color: transparent !important;
+        /* color:  linear-gradient(90deg, hsla(240, 51%, 67%, 1) 0%, hsla(176, 68%, 74%, 1) 100%) !important; */
+        font-size: 80px;
+        /* margin-top: 20vh; */
+    /* font-size: 300%; */
+}
+
+ul{
+	list-style: none;
+}
+
+ul li{
+	padding: 5px;
+    
+}
+
+ul li a{
+	text-decoration: none;
+    font-size: 1.5rem;
+}
+
+ul li a:hover{
+	text-decoration: underline;
+}
+
+#blog-box{
+    margin-top: 50px;
+}
+
+#content-box{
+    padding: 15px;
+}
+
+body#body-el{
+    /* background: hsla(42, 47%, 61%, 0.1); */
+    background: linear-gradient(225deg, hsla(42, 47%, 61%, 1) 20%, hsla(23, 64%, 68%, 1) 40%, hsla(140, 20%, 51%, 1) 100%, hsla(351, 88%, 62%, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background: hsla(240, 51%, 67%, 1);*/
+
+}
+
+@media only screen and (max-width: 768px){
+    .login_form{
+        margin-top: 2px !important;
+        /* margin-left: 350px !important; */
+        border-right: 0px !important;
+    }
+
+    #login-logo{
+        margin-top: 10px;
+        font-size: 3rem;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    #second-row{
+        min-height : 674px !important;
+    }
+}
