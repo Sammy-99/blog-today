@@ -9,6 +9,7 @@ RewriteBase /tse/blog-today
 #RewriteCond %{HTTP_HOST} !=127.0.0.1
 #RewriteCond %{REMOTE_ADDR} !=127.0.0.1
 #RewriteCond %{REMOTE_ADDR} !=::1
+
 RewriteCond %{HTTP_HOST} !=hestalabs.com
 
 ## hide .php extension

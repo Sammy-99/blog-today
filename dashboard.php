@@ -40,7 +40,7 @@ include_once("./layout/head.php");
             <form method="POST" id="editor_form">
                 <div class="row mt-4">
                     <div class="col-md-12">
-                        <textarea name="text_editor" id="text_editor" cols="30" rows="20" >
+                        <textarea name="text_editor" id="text_editor" cols="30" rows="25" >
                             </textarea>
                         <div class="fw-bold mt-2 fs-5" id="editor_msg"> </div>
                         <span class=" text-danger" id="editor_error"> </span>

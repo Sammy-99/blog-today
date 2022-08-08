@@ -41,10 +41,10 @@ include_once("./layout/head.php");
             </div>
         </div>
         <div class="row bottom-0 align-items-end " id="footer-box">
-            <div class="col-md-12 w-100 footer-copyright text-center py-3 " style="background: #907163">
-                © 2022 Copyright: Today'sBlog.com
+            <div class="col-md-12 w-100 footer-copyright text-center py-4 " style="background: #907163">
+                <p> © <?=date("Y");?> Copyright: Today'sBlog.com </p> 
+                <p> Facebook Youtube LinkedIn | blog_today@gmail.com | 0123 - 123456 </p>
             </div>
-            
         </div>
     </div>
 
