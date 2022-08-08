@@ -2,7 +2,7 @@ Options +FollowSymLinks -MultiViews
 # Turn mod_rewrite on
 RewriteEngine On
 #RewriteBase /projectTwo
-RewriteBase /blog-today
+RewriteBase /tse/blog-today
 
 # For LocalHost !.php
 RewriteCond %{HTTP_HOST} !=localhost
