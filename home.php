@@ -1,11 +1,5 @@
 <?php
 
-// spl_autoload_register(function ($className) {
-//     require_once("./controllers/models/" . $className . ".php");
-// });
-
-// $userData = Crud::getUserData($_SESSION['id']);
-
 include_once("./layout/head.php");
 
 ?>

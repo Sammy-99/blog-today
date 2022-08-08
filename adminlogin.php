@@ -2,7 +2,7 @@
 session_start();
 
 if (isset($_SESSION['email'])) {
-    header("location:dashboard.php");
+    header("location:dashboard");
 }
 
 // print_r($_SESSION);
@@ -145,7 +145,7 @@ $(document).ready(function() {
                         }
                     }
                     if (res.status == true && res.type == "password_matched") {
-                        window.location.href = "dashboard.php";
+                        window.location.href = "dashboard";
                     }
                 }
             });
