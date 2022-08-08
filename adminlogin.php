@@ -77,8 +77,16 @@ include_once("./layout/head.php");
 <script>
 $(document).ready(function() {
 
-    $("#loginform").trigger("reset");
-    document.getElementById("loginform").reset();
+    // $("#loginform").trigger("reset");
+    // document.getElementById("loginform").reset();
+
+    $("#user_email").on("change keyup", function(){
+        $("#username_error").text('');
+    });
+
+    $("#userpass").on("change keyup", function(){
+        $("#pass_error").text('');
+    });
 
     $("#loginform").submit(function(e) {
         // alert("innn");
