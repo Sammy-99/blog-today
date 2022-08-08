@@ -68,7 +68,7 @@ include_once("./layout/head.php");
                     getContent: "getContent"
                 },
                 success: function(response) {
-                    console.log(response);
+                    // console.log(response);
                     var res = JSON.parse(response);                    
                     
                     if (res.status == true) {
