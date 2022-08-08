@@ -75,6 +75,10 @@ ul li a:hover{
     padding: 15px;
 }
 
+#footer-box span{
+    cursor: pointer;
+}
+
 body#body-el{
     /* background: hsla(42, 47%, 61%, 0.1); */
     background: linear-gradient(225deg, hsla(42, 47%, 61%, 1) 20%, hsla(23, 64%, 68%, 1) 40%, hsla(140, 20%, 51%, 1) 100%, hsla(351, 88%, 62%, 1) 100%);

@@ -43,7 +43,12 @@ include_once("./layout/head.php");
         <div class="row bottom-0 align-items-end " id="footer-box">
             <div class="col-md-12 w-100 footer-copyright text-center py-4 " style="background: #907163">
                 <p> © <?=date("Y");?> Copyright: Today'sBlog.com </p> 
-                <p> Facebook Youtube LinkedIn | blog_today@gmail.com | 0123 - 123456 </p>
+                <p> 
+                    <span> Facebook </span>
+                    <span> Youtube </span>
+                    <span> LinkedIn </span>
+                     | blog_today@gmail.com | 0123 - 123456 
+                </p>
             </div>
         </div>
     </div>
