@@ -34,7 +34,7 @@ class DashboardModel{
             $runQuery = Self::$dbc->query($updateQuery);
 
             if($runQuery){
-                return json_encode(["status" => true, "type" => "content_updated", "message" => "Data Successfully Saved"]);
+                return json_encode(["status" => true, "type" => "content_updated", "message" => "Data Saved Successfully "]);
             }
             return json_encode(["status" => false, "type" => "content_not_updated", "message" => "Data not inserted"]);
         }

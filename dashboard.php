@@ -41,7 +41,6 @@ include_once("./layout/head.php");
                             <textarea name="text_editor" id="text_editor" cols="30" rows="25">
                             </textarea>
                             <div class="fw-bold mt-2 fs-5" id="editor_msg"> </div>
-                            <span class=" text-danger" id="editor_error"> </span>
 
                         </div>
                     </div>
@@ -64,14 +63,11 @@ include_once("./layout/head.php");
                 var editorFormData = new FormData(this);
                 var blog_content = $("#text_editor").val();
                 var blog_content_status;
-                console.log(blog_content);
 
-                if (blog_content.trim() == '' || blog_content.trim() == null) {
-                    // $("#editor_error").text("Please enter content");
+                if ($(blog_content).text().trim() == '' || $(blog_content).text().trim() == null) {
                     alertErrorMessage("Please enter content")
                     blog_content_status = false;
                 } else {
-                    $("#editor_error").text("");
                     blog_content_status = true;
                 }
 
