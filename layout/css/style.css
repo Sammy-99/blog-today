@@ -24,9 +24,9 @@
 
 .rightSideAlert{
     position: absolute !important;
-    right: 10px;
+    right: 37px;
     z-index: 9999999;
-    top: 56px;
+    top: 91px;
 }
 
 #home-header{
